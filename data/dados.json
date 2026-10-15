@@ -1,0 +1,39 @@
+{
+  "veiculos": [
+    {
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "ano": 2022,
+      "cor": "Branco Perolizado",
+      "km": 45000,
+      "combustivel": "Flex",
+      "placa": "FGV5E37",
+      "id": 1
+    }
+  ],
+  "abastecimentos": [
+    {
+      "id": 1,
+      "veiculo_id": 1,
+      "data": "2026-10-15",
+      "km": 45000,
+      "litros": 45.0,
+      "valor_total": 200.0,
+      "preco_por_litro": 4.444,
+      "combustivel": "Etanol"
+    }
+  ],
+  "manutencoes": [],
+  "gastos": [
+    {
+      "id": 1,
+      "veiculo_id": 1,
+      "data": "2026-10-15",
+      "categoria": "Combustível",
+      "descricao": "Abastecimento: 45,00 L de Etanol",
+      "valor": 200.0,
+      "origem": "abastecimento",
+      "origem_id": 1
+    }
+  ]
+}
