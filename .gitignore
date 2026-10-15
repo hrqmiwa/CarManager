@@ -1,0 +1,23 @@
+# Arquivos Python gerados automaticamente
+__pycache__/
+*.py[cod]
+
+# Ambientes virtuais
+.venv/
+venv/
+
+# Configurações e segredos locais
+.env
+.env.*
+!.env.example
+
+# Dados locais do sistema e arquivos temporários
+data/
+*.log
+*.tmp
+
+# Editores e sistema operacional
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
